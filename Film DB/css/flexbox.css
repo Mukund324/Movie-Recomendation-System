@@ -1,0 +1,31 @@
+@media (min-width: 468px) {
+  .container-1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /*
+      align-items:flex-start;
+      align-items:flex-end;
+      align-items:center;
+      
+      flex-direction:column;
+      */
+  }
+}
+.container-1 div {
+  border: 1px #ccc solid;
+  padding: 10px;
+}
+
+.container-2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.container-2-box {
+  flex-basis: 4%;
+}
+.container-2 div {
+  border: 1px #ccc solid;
+  padding: 10px;
+}
