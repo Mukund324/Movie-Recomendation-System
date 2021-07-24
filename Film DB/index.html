@@ -35,7 +35,7 @@
 </div>
 <!--end of preloading-->
 <!--login form popup-->
-<div class="login-wrapper" id="login-content">
+<!-- <div class="login-wrapper" id="login-content">
     <div class="login-content">
         <a href="#" class="close">x</a>
         <h3>Login</h3>
@@ -73,10 +73,10 @@
             </div>
         </div>
     </div>
-</div>
+</div> -->
 <!--end of login form popup-->
 <!--signup form popup-->
-<div class="login-wrapper"  id="signup-content">
+<!-- <div class="login-wrapper"  id="signup-content">
     <div class="login-content">
         <a href="#" class="close">x</a>
         <h3>sign up</h3>
@@ -111,7 +111,7 @@
            </div>
         </form>
     </div>
-</div>
+</div> -->
 <!--end of signup form popup-->
 
 <!-- BEGIN | Header -->
@@ -242,21 +242,27 @@
 				<div class="box-1">
 					<!-- <h3>For Pic </h3>
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p> -->
-					<img src="https://i2.wp.com/bloody-disgusting.com/wp-content/uploads/2021/06/pig-poster-1.png">
+					<img id="movie-poster" class="movie-poster" src="https://i2.wp.com/bloody-disgusting.com/wp-content/uploads/2021/06/pig-poster-1.png">
 				</div>
 			</div>
 			<div class="container-2">
 				<div class="container-2-box">
-					<h4>Pig (2021)</h3>
-					<p id="director">Director: Michael Sarnoski</p>
-					<p id="stars">Stars: Nicolas Cage, Alex Wolff, Adam Arkin</p>
-					<p>Genre: Drama, Thriller</p>
-					<p>Summary: A truffle hunter who lives alone in the Oregonian wilderness must return to his past in Portland in search of his beloved foraging pig after she is kidnapped.</p>
+					<h4 id="movie-title">Pig (2021)</h3><br>
+					<span class="ratings-imdb"><img src="images/imdb.png" class="icons-img"> <span id="imdb-rating">7/10</span></span>
+					<span class="ratings-rotten"><img src="images/rotten.svg" class="icons-img"> <span id="rotten-rating">88%</span></span><br><br>
+					<span class="mini-heading">Director</span>
+					<p id="director">Michael Sarnoski</p>
+					<span class="mini-heading">Stars</span>
+					<p id="stars">Nicolas Cage, Alex Wolff, Adam Arkin</p>
+					<span class="mini-heading">Genre</span>
+					<p id="genre">Drama, Thriller</p>
+					<span class="mini-heading">Summary</span>
+					<p id="summary" class="summary-text">A truffle hunter who lives alone in the Oregonian wilderness must return to his past in Portland in search of his beloved foraging pig after she is kidnapped.</p>
 				</div>
 			</div>
 		</div>
 		<!-- <p class="content">Whatever</p> -->
-		<button class="button">Generate a Movie</button>
+		<button class="button" id="getrec">Generate a Movie</button>
 	</div>
 	<!-- <div class="container">
 		<div class="row">
@@ -1241,7 +1247,7 @@
 	</div>
 </div> -->
 
-<div class="trailers">
+<!-- <div class="trailers">
 	<div class="container">
 		<div class="row ipad-width">
 			<div class="col-md-12">
@@ -1333,12 +1339,12 @@
 			</div>
 		</div>
 	</div>
-</div>
+</div> -->
 <!-- latest new v1 section-->
-<div class="latestnew">
+<!-- <div class="latestnew">
 	<div class="container">
 		<div class="row ipad-width">
-		<!--	<div class="col-md-8">
+			<div class="col-md-8">
 				<div class="ads">
 					<img src="images/uploads/ads2.png" alt="" width="728" height="106">
 				</div>
@@ -1433,13 +1439,13 @@
 							</div>
 							<div class="tweet item" id="">
 							</div> 
-						</div>	-->				
+						</div>					
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
-</div>
+</div> -->
 <!--end of latest new v1 section-->
 <!-- footer section-->
 <footer class="ht-footer">
@@ -1503,6 +1509,7 @@
 <script src="js/plugins.js"></script>
 <script src="js/plugins2.js"></script>
 <script src="js/custom.js"></script>
+<script defer src="js/getRec.js"></script>
 </body>
 
 
