@@ -119,7 +119,7 @@ function setup() {
 }
 
 async function getRecommendation(result) {
-    let promise = await fetch(`http://www.omdbapi.com/?i=${result}&apikey=fb7822a4`);
+    let promise = await fetch(`http://www.omdbapi.com/?i=${result}&apikey=`);
     let data = await promise.json();
     if(loaded == true) {
         setup();
