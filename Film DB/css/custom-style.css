@@ -14,10 +14,19 @@
   .icons-img {
     width: 15px;
     height: auto;
+    margin: 5px
   }
 
   .ratings-rotten {
     padding: 20px;
+  }
+
+  .imdb-rating .rotten-rating {
+    padding: 10px;
+  }
+  
+  .p-holder {
+    margin: 20px;
   }
 
   .mini-heading {
@@ -60,6 +69,8 @@
   
   .movie-poster {
     border-radius: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
   }
 
   .summary-text {
@@ -99,13 +110,16 @@
       position: relative;
       background: #185ADB;
       color: #FFFFFF;
-      font-size: 1.4rem;
+      font-size: 1.5rem;
       font-weight: 400;
-      padding: 0.85rem 1rem;
+      padding: 10px 10px 10px 10px;
+      margin: 10px;
       border-color: transparent;
       border-radius: 0.85rem;
       margin-top: auto;
       transition: all 200ms ease-in-out;
+      width: 380px;
+      height: 50px;
         
       /* &::before {
         content: "";
