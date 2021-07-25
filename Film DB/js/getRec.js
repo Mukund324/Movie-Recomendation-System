@@ -178,7 +178,7 @@ function populatePrevious() {
         document.getElementById("genre").innerHTML = `${data.Genre}`;
         document.getElementById("summary").innerHTML = `${data.Plot}`;
         document.getElementById("movie-poster").src=data.Poster;
-        document.getElementById("imdb-rating").innerHTML = `${data.imdbRating}/10`
+        document.getElementById("imdb-rating").innerHTML = `${data.imdbRating}`
         document.getElementById("rotten-rating").innerHTML = `${data.rotten}`;
         i += 1;
         console.log(i)
@@ -196,7 +196,7 @@ function populateForward() {
         document.getElementById("genre").innerHTML = `${data.Genre}`;
         document.getElementById("summary").innerHTML = `${data.Plot}`;
         document.getElementById("movie-poster").src=data.Poster;
-        document.getElementById("imdb-rating").innerHTML = `${data.imdbRating}/10`
+        document.getElementById("imdb-rating").innerHTML = `${data.imdbRating}`
         document.getElementById("rotten-rating").innerHTML = `${data.rotten}`;
         i -= 1;
         console.log(i)
